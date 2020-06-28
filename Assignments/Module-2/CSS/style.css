@@ -1,0 +1,79 @@
+/**************basic styles**************/
+*{
+	box-sizing: border-box;
+}
+h1{
+	margin-top: 80px;
+	text-align: center;
+	font-size: 175%;
+}
+section{
+	position: relative;
+	width: 100%;
+	padding: 10px;
+}
+div{
+	position: relative;
+	border: 2px solid black;
+	background-color: #bababa;
+	width: 100%;
+	margin: auto;
+}
+p{
+	position: relative;
+	clear: right;
+}
+.text{
+	margin: 5px;
+	padding: 5px;	
+}
+.section1, .section2, .section3{
+	border: solid black;
+	border-width: 0px 0px 1px 1px;
+	padding: 2px;
+	width: 80px;
+	font-size: 125%;
+	text-align: center;
+	float: right;
+	font-weight: bold;	
+	margin: 0;
+}
+.section1{
+	background-color: #d69a9a;
+}
+.section2{
+	background-color: #b52828;
+	color: white;
+}
+.section3{
+	background-color: #ffeb99;
+}
+/**************For Desktop**************/
+@media (min-width: 992px){
+	.column-lg-4{
+		float: left;
+		width: 33.33%;
+	}
+}
+/**************For Tablets**************/
+@media (min-width: 768px) and (max-width: 991px){
+	.column-md-6 {
+		float: left;
+		width: 50%;
+		margin: auto;
+	}
+	.column-md-12 {
+		float: left;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+/**************For Mobiles*************/
+@media(max-width: 767px){
+	.column-sm-12 {
+		float: left;
+		width: 100%;
+		margin: auto;	
+	}
+}
