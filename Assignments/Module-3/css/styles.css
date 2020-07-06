@@ -1,0 +1,35 @@
+.navbar-brand{
+	font-size: 35px;
+}
+.content-box{
+	border: 1px solid black;
+	background-color: #c7c7c7;
+	padding: 8px;
+	margin: 5px;
+	margin-bottom: 15px;
+	font-family: 'Poppins', sans-serif;
+}
+.item-name{
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.navbar-nav{
+  text-align: center;
+}
+.navbar-toggler{
+	border: 2px solid white;
+}
+.nav-link{
+	border-bottom: 1px solid black;
+	width: 100%;
+}
+.nav-link:hover{
+	background-color: #636363;
+	transition: .35s;
+}
+h1{
+	color: #990000;
+	font-family: 'Dancing Script', cursive;
+}
